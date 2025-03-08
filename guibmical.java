@@ -110,6 +110,16 @@ public class guibmical extends JFrame {
             }
         });
 
+        clearButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                textField1.setText("");
+                textField2.setText("");
+
+            }
+        });
+
 
     }
     public static void main(String[] args) {
